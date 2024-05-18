@@ -34,7 +34,7 @@
 
 ## Desafio na criação de um jogo usando qt para minha faculdade
 
-*Nessa construção usarei: **GIT* ; **QT IDE** 
+*Nessa construção realizarei o projeto da faculdade: *Game em QT* ; *IDE*
 
 ####  Linguagens usadas e Softwares
 
