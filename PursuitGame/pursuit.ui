@@ -6,16 +6,96 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>500</width>
+    <height>500</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Pursuit</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{
+	background: url(':/grid');
+}</string>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuJogo">
+    <property name="title">
+     <string>Jogo</string>
+    </property>
+    <addaction name="actionNobo"/>
+    <addaction name="actionSai"/>
+   </widget>
+   <widget class="QMenu" name="menuSobre">
+    <property name="title">
+     <string>Sobre</string>
+    </property>
+    <addaction name="actionAjuda"/>
+   </widget>
+   <addaction name="menuJogo"/>
+   <addaction name="menuSobre"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionNobo">
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </action>
+  <action name="actionSai">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionAjuda">
+   <property name="text">
+    <string>Ajuda</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

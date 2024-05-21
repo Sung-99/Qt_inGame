@@ -223,6 +223,7 @@ Makefile: ../PursuitGame/PursuitGame.pro ../../qt/Qtinstallation/5.12.12/mingw73
 		../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/qt_config.prf \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/win32-g++/qmake.conf \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/exclusive_builds.prf \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/toolchain.prf \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/default_pre.prf \
@@ -411,6 +412,7 @@ Makefile: ../PursuitGame/PursuitGame.pro ../../qt/Qtinstallation/5.12.12/mingw73
 ../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/qt_config.prf:
 ../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/win32-g++/qmake.conf:
 ../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/exclusive_builds.prf:
 ../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/toolchain.prf:
 ../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/default_pre.prf:

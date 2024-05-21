@@ -10,10 +10,13 @@
 #define UI_PURSUIT_H
 
 #include <QtCore/QVariant>
+#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -21,24 +24,57 @@ QT_BEGIN_NAMESPACE
 class Ui_Pursuit
 {
 public:
+    QAction *actionNobo;
+    QAction *actionSai;
+    QAction *actionAjuda;
     QWidget *centralwidget;
     QMenuBar *menubar;
-    QStatusBar *statusbar;
+    QMenu *menuJogo;
+    QMenu *menuSobre;
+    QStatusBar *statusBar;
+    QToolBar *toolBar;
 
     void setupUi(QMainWindow *Pursuit)
     {
         if (Pursuit->objectName().isEmpty())
             Pursuit->setObjectName(QString::fromUtf8("Pursuit"));
-        Pursuit->resize(800, 600);
+        Pursuit->resize(500, 500);
+        Pursuit->setMinimumSize(QSize(500, 500));
+        Pursuit->setMaximumSize(QSize(500, 500));
+        actionNobo = new QAction(Pursuit);
+        actionNobo->setObjectName(QString::fromUtf8("actionNobo"));
+        actionSai = new QAction(Pursuit);
+        actionSai->setObjectName(QString::fromUtf8("actionSai"));
+        actionAjuda = new QAction(Pursuit);
+        actionAjuda->setObjectName(QString::fromUtf8("actionAjuda"));
         centralwidget = new QWidget(Pursuit);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        centralwidget->setMinimumSize(QSize(400, 400));
+        centralwidget->setMaximumSize(QSize(400, 400));
+        centralwidget->setStyleSheet(QString::fromUtf8("#centralwidget{\n"
+"	background: url(':/grid');\n"
+"}"));
         Pursuit->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Pursuit);
         menubar->setObjectName(QString::fromUtf8("menubar"));
+        menubar->setGeometry(QRect(0, 0, 500, 20));
+        menuJogo = new QMenu(menubar);
+        menuJogo->setObjectName(QString::fromUtf8("menuJogo"));
+        menuSobre = new QMenu(menubar);
+        menuSobre->setObjectName(QString::fromUtf8("menuSobre"));
         Pursuit->setMenuBar(menubar);
-        statusbar = new QStatusBar(Pursuit);
-        statusbar->setObjectName(QString::fromUtf8("statusbar"));
-        Pursuit->setStatusBar(statusbar);
+        statusBar = new QStatusBar(Pursuit);
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
+        Pursuit->setStatusBar(statusBar);
+        toolBar = new QToolBar(Pursuit);
+        toolBar->setObjectName(QString::fromUtf8("toolBar"));
+        Pursuit->addToolBar(Qt::RightToolBarArea, toolBar);
+
+        menubar->addAction(menuJogo->menuAction());
+        menubar->addAction(menuSobre->menuAction());
+        menuJogo->addAction(actionNobo);
+        menuJogo->addAction(actionSai);
+        menuSobre->addAction(actionAjuda);
 
         retranslateUi(Pursuit);
 
@@ -48,6 +84,12 @@ public:
     void retranslateUi(QMainWindow *Pursuit)
     {
         Pursuit->setWindowTitle(QApplication::translate("Pursuit", "Pursuit", nullptr));
+        actionNobo->setText(QApplication::translate("Pursuit", "Novo", nullptr));
+        actionSai->setText(QApplication::translate("Pursuit", "Sair", nullptr));
+        actionAjuda->setText(QApplication::translate("Pursuit", "Ajuda", nullptr));
+        menuJogo->setTitle(QApplication::translate("Pursuit", "Jogo", nullptr));
+        menuSobre->setTitle(QApplication::translate("Pursuit", "Sobre", nullptr));
+        toolBar->setWindowTitle(QApplication::translate("Pursuit", "toolBar", nullptr));
     } // retranslateUi
 
 };
