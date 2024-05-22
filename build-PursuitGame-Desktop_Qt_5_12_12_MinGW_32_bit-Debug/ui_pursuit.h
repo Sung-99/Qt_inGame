@@ -10,11 +10,13 @@
 #define UI_PURSUIT_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
@@ -28,6 +30,7 @@ public:
     QAction *actionSai;
     QAction *actionAjuda;
     QWidget *centralwidget;
+    QPushButton *pushButton;
     QMenuBar *menubar;
     QMenu *menuJogo;
     QMenu *menuSobre;
@@ -54,6 +57,20 @@ public:
         centralwidget->setStyleSheet(QString::fromUtf8("#centralwidget{\n"
 "	background: url(':/grid');\n"
 "}"));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(0, 0, 100, 100));
+        pushButton->setMinimumSize(QSize(100, 100));
+        pushButton->setMaximumSize(QSize(100, 100));
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"	border:none;\n"
+"	outline:none;\n"
+"}"));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/blue"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton->setIcon(icon);
+        pushButton->setIconSize(QSize(45, 45));
+        pushButton->setFlat(true);
         Pursuit->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Pursuit);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -87,6 +104,7 @@ public:
         actionNobo->setText(QApplication::translate("Pursuit", "Novo", nullptr));
         actionSai->setText(QApplication::translate("Pursuit", "Sair", nullptr));
         actionAjuda->setText(QApplication::translate("Pursuit", "Ajuda", nullptr));
+        pushButton->setText(QString());
         menuJogo->setTitle(QApplication::translate("Pursuit", "Jogo", nullptr));
         menuSobre->setTitle(QApplication::translate("Pursuit", "Sobre", nullptr));
         toolBar->setWindowTitle(QApplication::translate("Pursuit", "toolBar", nullptr));
