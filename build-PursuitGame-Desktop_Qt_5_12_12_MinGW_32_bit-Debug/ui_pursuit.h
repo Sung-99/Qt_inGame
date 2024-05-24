@@ -59,7 +59,7 @@ public:
 "}"));
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(0, 0, 100, 100));
+        pushButton->setGeometry(QRect(150, 250, 100, 100));
         pushButton->setMinimumSize(QSize(100, 100));
         pushButton->setMaximumSize(QSize(100, 100));
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"

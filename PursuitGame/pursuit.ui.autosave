@@ -43,7 +43,7 @@
 	background: url(':/grid');
 }</string>
    </property>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="pursuitBalls" name="pushButton">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -141,6 +141,13 @@
    </property>
   </action>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>pursuitBalls</class>
+   <extends>QPushButton</extends>
+   <header location="global">pursuitballs.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="pursuit.qrc"/>
  </resources>
