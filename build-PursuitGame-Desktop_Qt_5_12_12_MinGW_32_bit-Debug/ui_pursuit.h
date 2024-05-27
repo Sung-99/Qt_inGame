@@ -10,16 +10,16 @@
 #define UI_PURSUIT_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QIcon>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
+#include <slot.h>
 
 QT_BEGIN_NAMESPACE
 
@@ -30,7 +30,11 @@ public:
     QAction *actionSai;
     QAction *actionAjuda;
     QWidget *centralwidget;
-    QPushButton *pushButton;
+    pursuitBalls *slot54;
+    QWidget *widget;
+    QHBoxLayout *horizontalLayout;
+    pursuitBalls *slot00;
+    pursuitBalls *slot01;
     QMenuBar *menubar;
     QMenu *menuJogo;
     QMenu *menuSobre;
@@ -57,20 +61,55 @@ public:
         centralwidget->setStyleSheet(QString::fromUtf8("#centralwidget{\n"
 "	background: url(':/grid');\n"
 "}"));
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(150, 250, 100, 100));
-        pushButton->setMinimumSize(QSize(100, 100));
-        pushButton->setMaximumSize(QSize(100, 100));
-        pushButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+        slot54 = new pursuitBalls(centralwidget);
+        slot54->setObjectName(QString::fromUtf8("slot54"));
+        slot54->setGeometry(QRect(170, 270, 50, 50));
+        slot54->setMinimumSize(QSize(50, 50));
+        slot54->setMaximumSize(QSize(50, 50));
+        slot54->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "	border:none;\n"
 "	outline:none;\n"
 "}"));
-        QIcon icon;
-        icon.addFile(QString::fromUtf8(":/blue"), QSize(), QIcon::Normal, QIcon::Off);
-        pushButton->setIcon(icon);
-        pushButton->setIconSize(QSize(45, 45));
-        pushButton->setFlat(true);
+        slot54->setIconSize(QSize(45, 45));
+        slot54->setFlat(true);
+        slot54->setProperty("row", QVariant(5));
+        slot54->setProperty("col", QVariant(4));
+        widget = new QWidget(centralwidget);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(20, 20, 108, 52));
+        horizontalLayout = new QHBoxLayout(widget);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        slot00 = new pursuitBalls(widget);
+        slot00->setObjectName(QString::fromUtf8("slot00"));
+        slot00->setMinimumSize(QSize(50, 50));
+        slot00->setMaximumSize(QSize(50, 50));
+        slot00->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"	border:none;\n"
+"	outline:none;\n"
+"}"));
+        slot00->setIconSize(QSize(45, 45));
+        slot00->setFlat(true);
+        slot00->setProperty("row", QVariant(0));
+        slot00->setProperty("col", QVariant(0));
+
+        horizontalLayout->addWidget(slot00);
+
+        slot01 = new pursuitBalls(widget);
+        slot01->setObjectName(QString::fromUtf8("slot01"));
+        slot01->setMinimumSize(QSize(50, 50));
+        slot01->setMaximumSize(QSize(50, 50));
+        slot01->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"	border:none;\n"
+"	outline:none;\n"
+"}"));
+        slot01->setIconSize(QSize(45, 45));
+        slot01->setFlat(true);
+        slot01->setProperty("row", QVariant(0));
+        slot01->setProperty("col", QVariant(1));
+
+        horizontalLayout->addWidget(slot01);
+
         Pursuit->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Pursuit);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -104,7 +143,9 @@ public:
         actionNobo->setText(QApplication::translate("Pursuit", "Novo", nullptr));
         actionSai->setText(QApplication::translate("Pursuit", "Sair", nullptr));
         actionAjuda->setText(QApplication::translate("Pursuit", "Ajuda", nullptr));
-        pushButton->setText(QString());
+        slot54->setText(QString());
+        slot00->setText(QString());
+        slot01->setText(QString());
         menuJogo->setTitle(QApplication::translate("Pursuit", "Jogo", nullptr));
         menuSobre->setTitle(QApplication::translate("Pursuit", "Sobre", nullptr));
         toolBar->setWindowTitle(QApplication::translate("Pursuit", "toolBar", nullptr));

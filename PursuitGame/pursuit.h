@@ -15,6 +15,9 @@ public:
     Pursuit(QWidget *parent = nullptr);
     ~Pursuit();
 
+private slots:
+    void play();
+
 private:
     Ui::Pursuit *ui;
 };

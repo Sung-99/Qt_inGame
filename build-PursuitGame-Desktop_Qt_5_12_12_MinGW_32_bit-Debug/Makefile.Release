@@ -49,20 +49,20 @@ OBJECTS_DIR   = release
 
 SOURCES       = ..\..\Pursuitgame\PursuitGame\main.cpp \
 		..\..\Pursuitgame\PursuitGame\pursuit.cpp \
-		..\..\Pursuitgame\PursuitGame\pursuitballs.cpp release\qrc_pursuit.cpp \
+		..\..\Pursuitgame\PursuitGame\slot.cpp release\qrc_pursuit.cpp \
 		release\moc_pursuit.cpp \
-		release\moc_pursuitballs.cpp
+		release\moc_slot.cpp
 OBJECTS       = release/main.o \
 		release/pursuit.o \
-		release/pursuitballs.o \
+		release/slot.o \
 		release/qrc_pursuit.o \
 		release/moc_pursuit.o \
-		release/moc_pursuitballs.o
+		release/moc_slot.o
 
 DIST          =  ..\..\Pursuitgame\PursuitGame\pursuit.h \
-		..\..\Pursuitgame\PursuitGame\pursuitballs.h ..\..\Pursuitgame\PursuitGame\main.cpp \
+		..\..\Pursuitgame\PursuitGame\slot.h ..\..\Pursuitgame\PursuitGame\main.cpp \
 		..\..\Pursuitgame\PursuitGame\pursuit.cpp \
-		..\..\Pursuitgame\PursuitGame\pursuitballs.cpp
+		..\..\Pursuitgame\PursuitGame\slot.cpp
 QMAKE_TARGET  = PursuitGame
 DESTDIR        = release\ #avoid trailing-slash linebreak
 TARGET         = PursuitGame.exe
@@ -82,10 +82,10 @@ qmake: FORCE
 qmake_all: FORCE
 
 dist:
-	$(ZIP) PursuitGame.zip $(SOURCES) $(DIST) ..\..\Pursuitgame\PursuitGame\PursuitGame.pro ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\spec_pre.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\qdevice.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\device_config.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\sanitize.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\gcc-base.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\g++-base.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\angle.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\win32\windows_vulkan_sdk.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\windows-vulkan.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\g++-win32.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\qconfig.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3danimation.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3danimation_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dcore.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dcore_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dextras.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dextras_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dinput.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dinput_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dlogic.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dlogic_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquick.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquick_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickanimation.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickanimation_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickextras.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickextras_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickinput.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickinput_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickrender.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickrender_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickscene2d.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickscene2d_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3drender.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3drender_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_accessibility_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axbase.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axbase_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axcontainer.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axcontainer_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axserver.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axserver_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_bluetooth.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_bluetooth_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_bootstrap_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_charts.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_charts_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_concurrent.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_concurrent_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_core.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_core_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_datavisualization.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_datavisualization_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_dbus.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_dbus_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_designer.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_designer_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_designercomponents_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_devicediscovery_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_edid_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_egl_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_eventdispatcher_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_fb_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_fontdatabase_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_gamepad.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_gamepad_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_gui.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_gui_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_help.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_help_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_location.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_location_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_multimedia.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_multimedia_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_multimediawidgets.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_multimediawidgets_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_network.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_network_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_networkauth.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_networkauth_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_nfc.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_nfc_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_opengl.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_opengl_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_openglextensions.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_openglextensions_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_packetprotocol_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_platformcompositor_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_positioning.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_positioning_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_positioningquick.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_positioningquick_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_printsupport.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_printsupport_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_purchasing.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_purchasing_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qml.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qml_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qmldebug_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qmldevtools_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qmltest.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qmltest_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quick.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quick_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickcontrols2.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickcontrols2_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickparticles_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickshapes_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quicktemplates2.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quicktemplates2_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickwidgets.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickwidgets_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_remoteobjects.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_remoteobjects_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_repparser.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_repparser_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_script.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_script_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_scripttools.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_scripttools_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_scxml.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_scxml_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_sensors.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_sensors_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_serialbus.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_serialbus_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_serialport.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_serialport_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_sql.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_sql_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_svg.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_svg_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_testlib.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_testlib_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_texttospeech.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_texttospeech_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_theme_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_uiplugin.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_uitools.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_uitools_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_virtualkeyboard.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_virtualkeyboard_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_webchannel.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_webchannel_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_websockets.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_websockets_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_widgets.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_widgets_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_windowsuiautomation_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_winextras.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_winextras_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_xml.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_xml_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_xmlpatterns.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_xmlpatterns_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qt_functions.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qt_config.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\win32-g++\qmake.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\spec_post.prf .qmake.stash ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\exclusive_builds.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\toolchain.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\default_pre.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\win32\default_pre.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\resolve_config.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\exclusive_builds_post.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\default_post.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\build_pass.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qml_debug.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\precompile_header.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\warn_on.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qt.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\resources.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\moc.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\win32\opengl.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\uic.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qmake_use.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\file_copies.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\win32\windows.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\testcase_targets.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\exceptions.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\yacc.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\lex.prf ..\..\Pursuitgame\PursuitGame\PursuitGame.pro ..\..\Pursuitgame\PursuitGame\pursuit.qrc ..\..\qt\Qtinstallation\5.12.12\mingw73_32\lib\Qt5Widgets.prl ..\..\qt\Qtinstallation\5.12.12\mingw73_32\lib\Qt5Gui.prl ..\..\qt\Qtinstallation\5.12.12\mingw73_32\lib\Qt5Core.prl ..\..\qt\Qtinstallation\5.12.12\mingw73_32\lib\qtmain.prl   ..\..\Pursuitgame\PursuitGame\pursuit.qrc ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\data\dummy.cpp ..\..\Pursuitgame\PursuitGame\pursuit.h ..\..\Pursuitgame\PursuitGame\pursuitballs.h  ..\..\Pursuitgame\PursuitGame\main.cpp ..\..\Pursuitgame\PursuitGame\pursuit.cpp ..\..\Pursuitgame\PursuitGame\pursuitballs.cpp ..\..\Pursuitgame\PursuitGame\pursuit.ui    
+	$(ZIP) PursuitGame.zip $(SOURCES) $(DIST) ..\..\Pursuitgame\PursuitGame\PursuitGame.pro ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\spec_pre.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\qdevice.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\device_config.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\sanitize.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\gcc-base.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\g++-base.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\angle.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\win32\windows_vulkan_sdk.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\windows-vulkan.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\common\g++-win32.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\qconfig.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3danimation.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3danimation_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dcore.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dcore_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dextras.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dextras_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dinput.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dinput_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dlogic.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dlogic_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquick.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquick_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickanimation.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickanimation_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickextras.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickextras_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickinput.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickinput_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickrender.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickrender_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickscene2d.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3dquickscene2d_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3drender.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_3drender_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_accessibility_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axbase.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axbase_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axcontainer.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axcontainer_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axserver.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_axserver_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_bluetooth.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_bluetooth_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_bootstrap_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_charts.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_charts_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_concurrent.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_concurrent_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_core.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_core_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_datavisualization.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_datavisualization_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_dbus.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_dbus_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_designer.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_designer_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_designercomponents_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_devicediscovery_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_edid_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_egl_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_eventdispatcher_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_fb_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_fontdatabase_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_gamepad.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_gamepad_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_gui.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_gui_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_help.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_help_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_location.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_location_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_multimedia.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_multimedia_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_multimediawidgets.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_multimediawidgets_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_network.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_network_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_networkauth.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_networkauth_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_nfc.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_nfc_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_opengl.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_opengl_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_openglextensions.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_openglextensions_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_packetprotocol_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_platformcompositor_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_positioning.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_positioning_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_positioningquick.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_positioningquick_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_printsupport.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_printsupport_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_purchasing.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_purchasing_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qml.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qml_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qmldebug_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qmldevtools_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qmltest.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qmltest_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quick.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quick_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickcontrols2.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickcontrols2_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickparticles_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickshapes_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quicktemplates2.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quicktemplates2_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickwidgets.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_quickwidgets_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_remoteobjects.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_remoteobjects_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_repparser.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_repparser_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_script.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_script_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_scripttools.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_scripttools_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_scxml.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_scxml_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_sensors.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_sensors_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_serialbus.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_serialbus_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_serialport.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_serialport_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_sql.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_sql_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_svg.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_svg_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_testlib.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_testlib_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_texttospeech.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_texttospeech_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_theme_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_uiplugin.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_uitools.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_uitools_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_virtualkeyboard.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_virtualkeyboard_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_webchannel.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_webchannel_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_websockets.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_websockets_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_widgets.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_widgets_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_windowsuiautomation_support_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_winextras.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_winextras_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_xml.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_xml_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_xmlpatterns.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\modules\qt_lib_xmlpatterns_private.pri ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qt_functions.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qt_config.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\win32-g++\qmake.conf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\spec_post.prf .qmake.stash ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\exclusive_builds.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\toolchain.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\default_pre.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\win32\default_pre.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\resolve_config.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\exclusive_builds_post.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\default_post.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\build_pass.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qml_debug.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\precompile_header.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\warn_on.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qt.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\resources.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\moc.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\win32\opengl.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\uic.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\qmake_use.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\file_copies.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\win32\windows.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\testcase_targets.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\exceptions.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\yacc.prf ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\lex.prf ..\..\Pursuitgame\PursuitGame\PursuitGame.pro ..\..\Pursuitgame\PursuitGame\pursuit.qrc ..\..\qt\Qtinstallation\5.12.12\mingw73_32\lib\Qt5Widgets.prl ..\..\qt\Qtinstallation\5.12.12\mingw73_32\lib\Qt5Gui.prl ..\..\qt\Qtinstallation\5.12.12\mingw73_32\lib\Qt5Core.prl ..\..\qt\Qtinstallation\5.12.12\mingw73_32\lib\qtmain.prl   ..\..\Pursuitgame\PursuitGame\pursuit.qrc ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\data\dummy.cpp ..\..\Pursuitgame\PursuitGame\pursuit.h ..\..\Pursuitgame\PursuitGame\slot.h  ..\..\Pursuitgame\PursuitGame\main.cpp ..\..\Pursuitgame\PursuitGame\pursuit.cpp ..\..\Pursuitgame\PursuitGame\slot.cpp ..\..\Pursuitgame\PursuitGame\pursuit.ui    
 
 clean: compiler_clean 
-	-$(DEL_FILE) release\main.o release\pursuit.o release\pursuitballs.o release\qrc_pursuit.o release\moc_pursuit.o release\moc_pursuitballs.o
+	-$(DEL_FILE) release\main.o release\pursuit.o release\slot.o release\qrc_pursuit.o release\moc_pursuit.o release\moc_slot.o
 
 distclean: clean 
 	-$(DEL_FILE) .qmake.stash
@@ -119,9 +119,9 @@ compiler_moc_predefs_clean:
 release/moc_predefs.h: ../../qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/features/data/dummy.cpp
 	g++ -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -dM -E -o release\moc_predefs.h ..\..\qt\Qtinstallation\5.12.12\mingw73_32\mkspecs\features\data\dummy.cpp
 
-compiler_moc_header_make_all: release/moc_pursuit.cpp release/moc_pursuitballs.cpp
+compiler_moc_header_make_all: release/moc_pursuit.cpp release/moc_slot.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) release\moc_pursuit.cpp release\moc_pursuitballs.cpp
+	-$(DEL_FILE) release\moc_pursuit.cpp release\moc_slot.cpp
 release/moc_pursuit.cpp: ../../Pursuitgame/PursuitGame/pursuit.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QMainWindow \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qmainwindow.h \
@@ -233,9 +233,9 @@ release/moc_pursuit.cpp: ../../Pursuitgame/PursuitGame/pursuit.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/bin/moc.exe
 	D:\CEFET\LP\Tp2\qt\Qtinstallation\5.12.12\mingw73_32\bin\moc.exe $(DEFINES) --include D:/CEFET/LP/Tp2/PursuitGame/build-PursuitGame-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/release/moc_predefs.h -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/win32-g++ -ID:/CEFET/LP/Tp2/Pursuitgame/PursuitGame -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtANGLE -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore -I. -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++ -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32 -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include-fixed -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/i686-w64-mingw32/include ..\..\Pursuitgame\PursuitGame\pursuit.h -o release\moc_pursuit.cpp
 
-release/moc_pursuitballs.cpp: ../../Pursuitgame/PursuitGame/pursuitballs.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QWidget \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qwidget.h \
+release/moc_slot.cpp: ../../Pursuitgame/PursuitGame/slot.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QPushButton \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qpushbutton.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qtwidgetsglobal.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtguiglobal.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qglobal.h \
@@ -261,68 +261,71 @@ release/moc_pursuitballs.cpp: ../../Pursuitgame/PursuitGame/pursuitballs.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qversiontagging.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtgui-config.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qtwidgets-config.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qwindowdefs.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobjectdefs.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qabstractbutton.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qicon.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsize.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qnamespace.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobjectdefs_impl.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qwindowdefs_win.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobject.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qlist.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qalgorithms.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qiterator.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qrefcount.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qarraydata.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qhashfunctions.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstring.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qchar.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qbytearray.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qrefcount.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qarraydata.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringliteral.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringalgorithms.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringview.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringbuilder.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qlist.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qalgorithms.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qiterator.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qhashfunctions.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qpair.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qbytearraylist.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringlist.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qregexp.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringmatcher.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpixmap.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpaintdevice.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qwindowdefs.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobjectdefs.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobjectdefs_impl.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qwindowdefs_win.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qrect.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qmargins.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qpoint.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qcolor.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qrgb.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qrgba64.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsharedpointer.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qshareddata.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qhash.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsharedpointer_impl.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobject.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qcoreevent.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qscopedpointer.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qmetatype.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qvarlengtharray.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qcontainerfwd.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobject_impl.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qmargins.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpaintdevice.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qrect.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsize.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qpoint.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpalette.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qcolor.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qrgb.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qrgba64.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qbrush.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qvector.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qimage.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpixelformat.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtransform.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qmatrix.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpolygon.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qvector.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qregion.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qdatastream.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qiodevice.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qline.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtransform.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpainterpath.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qimage.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpixelformat.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpixmap.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsharedpointer.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qshareddata.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qhash.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsharedpointer_impl.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qkeysequence.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qwidget.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpalette.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qbrush.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qfont.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qfontmetrics.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qfontinfo.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qsizepolicy.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qcursor.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qkeysequence.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qevent.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qvariant.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qmap.h \
@@ -339,7 +342,7 @@ release/moc_pursuitballs.cpp: ../../Pursuitgame/PursuitGame/pursuitballs.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtouchdevice.h \
 		release/moc_predefs.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/bin/moc.exe
-	D:\CEFET\LP\Tp2\qt\Qtinstallation\5.12.12\mingw73_32\bin\moc.exe $(DEFINES) --include D:/CEFET/LP/Tp2/PursuitGame/build-PursuitGame-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/release/moc_predefs.h -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/win32-g++ -ID:/CEFET/LP/Tp2/Pursuitgame/PursuitGame -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtANGLE -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore -I. -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++ -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32 -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include-fixed -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/i686-w64-mingw32/include ..\..\Pursuitgame\PursuitGame\pursuitballs.h -o release\moc_pursuitballs.cpp
+	D:\CEFET\LP\Tp2\qt\Qtinstallation\5.12.12\mingw73_32\bin\moc.exe $(DEFINES) --include D:/CEFET/LP/Tp2/PursuitGame/build-PursuitGame-Desktop_Qt_5_12_12_MinGW_32_bit-Debug/release/moc_predefs.h -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/mkspecs/win32-g++ -ID:/CEFET/LP/Tp2/Pursuitgame/PursuitGame -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtANGLE -ID:/CEFET/LP/Tp2/qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore -I. -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++ -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32 -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/lib/gcc/i686-w64-mingw32/7.3.0/include-fixed -ID:/CEFET/LP/Tp2/qt/Qtinstallation/Tools/mingw730_32/i686-w64-mingw32/include ..\..\Pursuitgame\PursuitGame\slot.h -o release\moc_slot.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -604,19 +607,17 @@ release/pursuit.o: ../../Pursuitgame/PursuitGame/pursuit.cpp ../../Pursuitgame/P
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qmenu.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QMenuBar \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qmenubar.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QPushButton \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qpushbutton.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qabstractbutton.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QStatusBar \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qstatusbar.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QToolBar \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qtoolbar.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QWidget
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QWidget \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\pursuit.o ..\..\Pursuitgame\PursuitGame\pursuit.cpp
 
-release/pursuitballs.o: ../../Pursuitgame/PursuitGame/pursuitballs.cpp ../../Pursuitgame/PursuitGame/pursuitballs.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QWidget \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qwidget.h \
+release/slot.o: ../../Pursuitgame/PursuitGame/slot.cpp ../../Pursuitgame/PursuitGame/slot.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/QPushButton \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qpushbutton.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qtwidgetsglobal.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtguiglobal.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qglobal.h \
@@ -642,68 +643,71 @@ release/pursuitballs.o: ../../Pursuitgame/PursuitGame/pursuitballs.cpp ../../Pur
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qversiontagging.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtgui-config.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qtwidgets-config.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qwindowdefs.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobjectdefs.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qabstractbutton.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qicon.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsize.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qnamespace.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobjectdefs_impl.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qwindowdefs_win.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobject.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qlist.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qalgorithms.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qiterator.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qrefcount.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qarraydata.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qhashfunctions.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstring.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qchar.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qbytearray.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qrefcount.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qarraydata.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringliteral.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringalgorithms.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringview.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringbuilder.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qlist.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qalgorithms.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qiterator.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qhashfunctions.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qpair.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qbytearraylist.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringlist.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qregexp.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qstringmatcher.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpixmap.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpaintdevice.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qwindowdefs.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobjectdefs.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobjectdefs_impl.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qwindowdefs_win.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qrect.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qmargins.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qpoint.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qcolor.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qrgb.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qrgba64.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsharedpointer.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qshareddata.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qhash.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsharedpointer_impl.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobject.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qcoreevent.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qscopedpointer.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qmetatype.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qvarlengtharray.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qcontainerfwd.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qobject_impl.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qmargins.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpaintdevice.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qrect.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsize.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qpoint.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpalette.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qcolor.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qrgb.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qrgba64.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qbrush.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qvector.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qimage.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpixelformat.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtransform.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qmatrix.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpolygon.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qvector.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qregion.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qdatastream.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qiodevice.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qline.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtransform.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpainterpath.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qimage.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpixelformat.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpixmap.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsharedpointer.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qshareddata.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qhash.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qsharedpointer_impl.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qkeysequence.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qwidget.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qpalette.h \
+		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qbrush.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qfont.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qfontmetrics.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qfontinfo.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtWidgets/qsizepolicy.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qcursor.h \
-		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qkeysequence.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qevent.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qvariant.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qmap.h \
@@ -718,7 +722,7 @@ release/pursuitballs.o: ../../Pursuitgame/PursuitGame/pursuitballs.cpp ../../Pur
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtCore/qfiledevice.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qvector2d.h \
 		../../qt/Qtinstallation/5.12.12/mingw73_32/include/QtGui/qtouchdevice.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\pursuitballs.o ..\..\Pursuitgame\PursuitGame\pursuitballs.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\slot.o ..\..\Pursuitgame\PursuitGame\slot.cpp
 
 release/qrc_pursuit.o: release/qrc_pursuit.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\qrc_pursuit.o release\qrc_pursuit.cpp
@@ -726,8 +730,8 @@ release/qrc_pursuit.o: release/qrc_pursuit.cpp
 release/moc_pursuit.o: release/moc_pursuit.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\moc_pursuit.o release\moc_pursuit.cpp
 
-release/moc_pursuitballs.o: release/moc_pursuitballs.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\moc_pursuitballs.o release\moc_pursuitballs.cpp
+release/moc_slot.o: release/moc_slot.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\moc_slot.o release\moc_slot.cpp
 
 ####### Install
 

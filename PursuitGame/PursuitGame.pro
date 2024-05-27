@@ -11,11 +11,11 @@ CONFIG += c++11
 SOURCES += \
     main.cpp \
     pursuit.cpp \
-    pursuitballs.cpp
+    slot.cpp
 
 HEADERS += \
     pursuit.h \
-    pursuitballs.h
+    slot.h
 
 FORMS += \
     pursuit.ui
