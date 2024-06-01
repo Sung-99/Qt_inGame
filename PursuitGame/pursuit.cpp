@@ -26,7 +26,7 @@ Pursuit::~Pursuit()
 }
 
 void Pursuit :: play(){
-    qDebug()<< "btn pressed";
+    qDebug()<< "btn presseds";
 
 }
 
