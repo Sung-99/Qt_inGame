@@ -43,7 +43,7 @@
 	background: url(':/grid');
 }</string>
    </property>
-   <widget class="slotwhite" name="slot00">
+   <widget class="slotWhite" name="slot00">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -68,11 +68,8 @@
      <string notr="true">QPushButton{
 	border: none;
 	outline:none;
-
-}</string>
-    </property>
-    <property name="text">
-     <string/>
+}
+</string>
     </property>
     <property name="iconSize">
      <size>
@@ -87,13 +84,13 @@
      <number>0</number>
     </property>
     <property name="col" stdset="0">
-     <number>0</number>
+     <string>0</string>
     </property>
    </widget>
-   <widget class="slotwhite" name="slot01">
+   <widget class="slotWhite" name="slot01">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>80</x>
       <y>30</y>
       <width>50</width>
       <height>50</height>
@@ -115,11 +112,8 @@
      <string notr="true">QPushButton{
 	border: none;
 	outline:none;
-
-}</string>
-    </property>
-    <property name="text">
-     <string/>
+}
+</string>
     </property>
     <property name="iconSize">
      <size>
@@ -134,13 +128,13 @@
      <number>0</number>
     </property>
     <property name="col" stdset="0">
-     <number>0</number>
+     <string>1</string>
     </property>
    </widget>
-   <widget class="slotwhite" name="slot02">
+   <widget class="slotWhite" name="slot02">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>120</x>
       <y>30</y>
       <width>50</width>
       <height>50</height>
@@ -162,11 +156,8 @@
      <string notr="true">QPushButton{
 	border: none;
 	outline:none;
-
-}</string>
-    </property>
-    <property name="text">
-     <string/>
+}
+</string>
     </property>
     <property name="iconSize">
      <size>
@@ -181,14 +172,14 @@
      <number>0</number>
     </property>
     <property name="col" stdset="0">
-     <number>0</number>
+     <string>2</string>
     </property>
    </widget>
-   <widget class="slotwhite" name="slot03">
+   <widget class="slotWhite" name="slot03">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>20</y>
+      <x>170</x>
+      <y>30</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -209,11 +200,8 @@
      <string notr="true">QPushButton{
 	border: none;
 	outline:none;
-
-}</string>
-    </property>
-    <property name="text">
-     <string/>
+}
+</string>
     </property>
     <property name="iconSize">
      <size>
@@ -228,10 +216,10 @@
      <number>0</number>
     </property>
     <property name="col" stdset="0">
-     <number>0</number>
+     <string>3</string>
     </property>
    </widget>
-   <widget class="slotwhite" name="slot04">
+   <widget class="slotWhite" name="slot04">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -256,11 +244,8 @@
      <string notr="true">QPushButton{
 	border: none;
 	outline:none;
-
-}</string>
-    </property>
-    <property name="text">
-     <string/>
+}
+</string>
     </property>
     <property name="iconSize">
      <size>
@@ -275,10 +260,10 @@
      <number>0</number>
     </property>
     <property name="col" stdset="0">
-     <number>0</number>
+     <string>4</string>
     </property>
    </widget>
-   <widget class="slotwhite" name="slot05">
+   <widget class="slotWhite" name="slot05">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -303,11 +288,8 @@
      <string notr="true">QPushButton{
 	border: none;
 	outline:none;
-
-}</string>
-    </property>
-    <property name="text">
-     <string/>
+}
+</string>
     </property>
     <property name="iconSize">
      <size>
@@ -322,10 +304,10 @@
      <number>0</number>
     </property>
     <property name="col" stdset="0">
-     <number>0</number>
+     <string>5</string>
     </property>
    </widget>
-   <widget class="slotwhite" name="slot06">
+   <widget class="slotWhite" name="slot06">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -350,11 +332,8 @@
      <string notr="true">QPushButton{
 	border: none;
 	outline:none;
-
-}</string>
-    </property>
-    <property name="text">
-     <string/>
+}
+</string>
     </property>
     <property name="iconSize">
      <size>
@@ -369,7 +348,315 @@
      <number>0</number>
     </property>
     <property name="col" stdset="0">
-     <number>0</number>
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot11">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot12">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot13">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot14">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot15">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot16">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>80</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
     </property>
    </widget>
   </widget>
@@ -428,7 +715,7 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>slotwhite</class>
+   <class>slotWhite</class>
    <extends>QPushButton</extends>
    <header location="global">slotwhite.h</header>
   </customwidget>
