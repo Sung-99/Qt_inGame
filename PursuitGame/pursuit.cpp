@@ -11,13 +11,18 @@ Pursuit::Pursuit(QWidget *parent)
     this -> adjustSize();
     this -> setFixedSize(this -> size());
 
-    qDebug() << "row" << ui -> slot00->row();
-    qDebug() << "col" << ui -> slot00->col();
+
 
 
     QObject::connect(ui ->actionSai, SIGNAL(triggered(bool)),qApp, SLOT(quit()));
 
-     QObject::connect(ui ->slot00, SIGNAL(clicked(bool)), this, SLOT(play()));
+    for (int id = 0; id <= 13; id++) {
+            int r = id / 7;
+            int c = id % 7;
+
+            slotWhite* slotwhite = this->findChild<slotWhite*>(QString("slot%1%2").arg(r).arg(c));
+            QObject::connect(slotwhite, SIGNAL(clicked(bool)), this, SLOT(play()));
+        }
 }
 
 Pursuit::~Pursuit()
@@ -26,7 +31,12 @@ Pursuit::~Pursuit()
 }
 
 void Pursuit :: play(){
-    qDebug()<< "btn presseds";
+
+
+    slotWhite* slotwhite = qobject_cast<slotWhite*>(QObject::sender());
+
+      qDebug()<< "row" << slotwhite-> row();
+      qDebug()<< "col" << slotwhite-> col();
 
 }
 
