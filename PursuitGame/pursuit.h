@@ -17,5 +17,8 @@ public:
 
 private:
     Ui::Pursuit *ui;
+
+private slots:
+    void play();
 };
 #endif // PURSUIT_H
