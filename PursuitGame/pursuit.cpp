@@ -1,7 +1,7 @@
 #include "pursuit.h"
 #include "ui_pursuit.h"
 #include <QDebug>
-
+#include <QSignalMapper>
 
 Pursuit::Pursuit(QWidget *parent)
     : QMainWindow(parent)
@@ -16,13 +16,22 @@ Pursuit::Pursuit(QWidget *parent)
 
     QObject::connect(ui ->actionSai, SIGNAL(triggered(bool)),qApp, SLOT(quit()));
 
+
+    QSignalMapper* map = new QSignalMapper(this);
     for (int id = 0; id <= 13; id++) {
             int r = id / 7;
             int c = id % 7;
 
             slotWhite* slotwhite = this->findChild<slotWhite*>(QString("slot%1%2").arg(r).arg(c));
-            QObject::connect(slotwhite, SIGNAL(clicked(bool)), this, SLOT(play()));
+            Q_ASSERT(slotwhite != nullptr);
+
+            m_slot[id] = slotwhite;
+            map->setMapping(slotwhite, id);
+            QObject::connect(slotwhite, SIGNAL(clicked(bool)), map, SLOT(map()));
         }
+        QObject::connect(map, SIGNAL(mapped(int)), this, SLOT(play(int)));
+
+
 }
 
 Pursuit::~Pursuit()
@@ -30,13 +39,16 @@ Pursuit::~Pursuit()
     delete ui;
 }
 
-void Pursuit :: play(){
+void Pursuit :: play(int id){
 
 
-    slotWhite* slotwhite = qobject_cast<slotWhite*>(QObject::sender());
+    slotWhite* slotwhite = m_slot[id];
 
       qDebug()<< "row" << slotwhite-> row();
       qDebug()<< "col" << slotwhite-> col();
+
+      slotwhite -> setIcon(QPixmap(":/red"));
+
 
 }
 
