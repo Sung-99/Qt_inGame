@@ -19,7 +19,7 @@ public:
 
 private:
     Ui::Pursuit *ui;
-    slotWhite* m_slot[14];
+    slotWhite* m_slot[49];
 
 private slots:
     void play(int id);

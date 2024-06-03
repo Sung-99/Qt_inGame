@@ -15,10 +15,10 @@ Pursuit::Pursuit(QWidget *parent)
 
 
     QObject::connect(ui ->actionSai, SIGNAL(triggered(bool)),qApp, SLOT(quit()));
-
+    QObject::connect(ui ->actionNobo, SIGNAL(triggered(bool)),this, SLOT(reset()));
 
     QSignalMapper* map = new QSignalMapper(this);
-    for (int id = 0; id <= 13; id++) {
+    for (int id = 0; id <= 48; id++) {
             int r = id / 7;
             int c = id % 7;
 
@@ -48,6 +48,19 @@ void Pursuit :: play(int id){
       qDebug()<< "col" << slotwhite-> col();
 
       slotwhite -> setIcon(QPixmap(":/red"));
+
+
+}
+
+
+void Pursuit :: reset(){
+
+
+    for(int id = 0 ; id < 49; id++){
+         slotWhite* slotwhite = m_slot[id];
+         slotwhite -> setIcon(QPixmap(":/imagens/empty"));
+
+    }
 
 
 }
