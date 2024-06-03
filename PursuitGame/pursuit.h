@@ -7,6 +7,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class Pursuit; }
 QT_END_NAMESPACE
 
+class slotWhite;
+
 class Pursuit : public QMainWindow
 {
     Q_OBJECT
@@ -17,8 +19,11 @@ public:
 
 private:
     Ui::Pursuit *ui;
+    slotWhite* m_slot[14];
 
 private slots:
-    void play();
+    void play(int id);
+    void reset();
+
 };
 #endif // PURSUIT_H

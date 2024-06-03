@@ -46,8 +46,8 @@
    <widget class="slotWhite" name="slot00">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>30</y>
+      <x>25</x>
+      <y>25</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -60,8 +60,8 @@
     </property>
     <property name="maximumSize">
      <size>
-      <width>50</width>
-      <height>50</height>
+      <width>30</width>
+      <height>30</height>
      </size>
     </property>
     <property name="styleSheet">
@@ -90,8 +90,8 @@
    <widget class="slotWhite" name="slot01">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>30</y>
+      <x>75</x>
+      <y>25</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -134,8 +134,8 @@
    <widget class="slotWhite" name="slot02">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>30</y>
+      <x>125</x>
+      <y>25</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -178,8 +178,8 @@
    <widget class="slotWhite" name="slot03">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>30</y>
+      <x>175</x>
+      <y>25</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -222,8 +222,8 @@
    <widget class="slotWhite" name="slot04">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>30</y>
+      <x>225</x>
+      <y>25</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -266,8 +266,8 @@
    <widget class="slotWhite" name="slot05">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>20</y>
+      <x>275</x>
+      <y>25</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -310,8 +310,8 @@
    <widget class="slotWhite" name="slot06">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>20</y>
+      <x>325</x>
+      <y>25</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -354,8 +354,8 @@
    <widget class="slotWhite" name="slot10">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>80</y>
+      <x>25</x>
+      <y>75</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -398,8 +398,8 @@
    <widget class="slotWhite" name="slot11">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>80</y>
+      <x>75</x>
+      <y>75</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -442,8 +442,8 @@
    <widget class="slotWhite" name="slot12">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>80</y>
+      <x>125</x>
+      <y>75</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -486,8 +486,8 @@
    <widget class="slotWhite" name="slot13">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>80</y>
+      <x>175</x>
+      <y>75</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -530,8 +530,8 @@
    <widget class="slotWhite" name="slot14">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>80</y>
+      <x>225</x>
+      <y>75</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -574,8 +574,8 @@
    <widget class="slotWhite" name="slot15">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>80</y>
+      <x>275</x>
+      <y>75</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -618,8 +618,8 @@
    <widget class="slotWhite" name="slot16">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>80</y>
+      <x>325</x>
+      <y>75</y>
       <width>50</width>
       <height>50</height>
      </rect>
