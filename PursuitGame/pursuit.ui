@@ -659,6 +659,1546 @@
      <string>6</string>
     </property>
    </widget>
+   <widget class="slotWhite" name="slot20">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>125</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot21">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>125</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot22">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>125</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot23">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>125</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot24">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>125</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot25">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>125</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot26">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>125</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot30">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>175</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot33">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>175</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot32">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>175</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot31">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>175</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot34">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>175</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot35">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>175</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot36">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>175</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot40">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>225</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot41">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>225</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot42">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>225</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot43">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>225</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot44">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>225</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot45">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>225</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot46">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>225</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot64">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>325</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot65">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>325</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot66">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>325</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot63">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>325</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot62">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>325</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot61">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>325</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot60">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>325</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot50">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>275</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot51">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>275</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot52">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>275</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot54">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>275</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot53">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>275</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot55">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>275</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="slotWhite" name="slot56">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>275</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	outline:none;
+}
+</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <property name="row" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="col" stdset="0">
+     <string>6</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
