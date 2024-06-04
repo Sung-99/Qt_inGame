@@ -24,6 +24,7 @@ private:
 private slots:
     void play(int id);
     void reset();
+    void showAbout();
 
 };
 #endif // PURSUIT_H
