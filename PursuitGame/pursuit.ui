@@ -697,10 +697,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot21">
@@ -741,10 +741,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>1</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot22">
@@ -785,10 +785,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>2</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot23">
@@ -829,10 +829,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>3</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot24">
@@ -873,10 +873,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>4</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot25">
@@ -917,10 +917,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>5</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot26">
@@ -961,7 +961,7 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="col" stdset="0">
      <string>6</string>
@@ -1005,10 +1005,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>3</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot33">
@@ -1049,10 +1049,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>3</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>3</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot32">
@@ -1093,10 +1093,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>3</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>2</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot31">
@@ -1137,10 +1137,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>3</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>1</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot34">
@@ -1181,10 +1181,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>3</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>4</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot35">
@@ -1225,10 +1225,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>3</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>5</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot36">
@@ -1269,7 +1269,7 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>3</number>
     </property>
     <property name="col" stdset="0">
      <string>6</string>
@@ -1313,10 +1313,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>4</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot41">
@@ -1357,10 +1357,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>4</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>1</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot42">
@@ -1401,10 +1401,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>4</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>2</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot43">
@@ -1445,10 +1445,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>4</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>3</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot44">
@@ -1489,10 +1489,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>4</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>4</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot45">
@@ -1533,10 +1533,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>4</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>5</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot46">
@@ -1577,7 +1577,7 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>4</number>
     </property>
     <property name="col" stdset="0">
      <string>6</string>
@@ -1621,10 +1621,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>6</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>4</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot65">
@@ -1665,10 +1665,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>6</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>5</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot66">
@@ -1709,7 +1709,7 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>6</number>
     </property>
     <property name="col" stdset="0">
      <string>6</string>
@@ -1753,10 +1753,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>6</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>3</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot62">
@@ -1797,10 +1797,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>6</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>2</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot61">
@@ -1841,10 +1841,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>6</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>1</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot60">
@@ -1885,10 +1885,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>6</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot50">
@@ -1929,10 +1929,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>5</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot51">
@@ -1973,10 +1973,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>5</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>1</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot52">
@@ -2017,10 +2017,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>5</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>2</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot54">
@@ -2061,10 +2061,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>5</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>4</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot53">
@@ -2105,10 +2105,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>5</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>3</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot55">
@@ -2149,10 +2149,10 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>5</number>
     </property>
     <property name="col" stdset="0">
-     <string>6</string>
+     <string>5</string>
     </property>
    </widget>
    <widget class="slotWhite" name="slot56">
@@ -2193,7 +2193,7 @@
      <bool>true</bool>
     </property>
     <property name="row" stdset="0">
-     <number>1</number>
+     <number>5</number>
     </property>
     <property name="col" stdset="0">
      <string>6</string>
