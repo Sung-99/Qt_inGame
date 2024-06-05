@@ -19,7 +19,7 @@ public:
     };
     Q_ENUM(State)
 
-    slotWhite();
+
     explicit slotWhite(QWidget *parent = nullptr);
     virtual ~slotWhite();
 
@@ -33,8 +33,12 @@ public:
     slotWhite::State state() const { return m_state; }
     void setState(slotWhite::State state);
 
-signals:
-    void stateChanged(slotWhite::State old_state, slotWhite::State new_state);
+    public slots:
+        void reset();
+
+
+    signals:
+        void stateChanged(slotWhite::State state);
 
 private:
     int m_row;
@@ -45,7 +49,7 @@ private:
     static QPixmap state2pixmap(slotWhite::State state);
 
 private slots:
-    void updateSlotWhite(slotWhite::State old_state, slotWhite::State new_state);
+    void updateSlotWhite(slotWhite::State state);
 
 };
 

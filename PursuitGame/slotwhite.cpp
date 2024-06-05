@@ -13,10 +13,10 @@ slotWhite::~slotWhite(){
 
 void slotWhite::setState(slotWhite::State state) {
     if (m_state != state) {
-        slotWhite::State old = m_state;
+         m_state = state;
 
-        m_state = state;
-        emit stateChanged(old, state);
+
+        emit stateChanged(state);
     }
 }
 
@@ -36,8 +36,7 @@ QPixmap slotWhite::state2pixmap(slotWhite::State state){
         }
 }
 
-void slotWhite::updateSlotWhite(slotWhite::State old_state, slotWhite::State new_state){
-    Q_UNUSED(old_state);
+void slotWhite::updateSlotWhite(slotWhite::State state){
 
-    this -> setIcon(slotWhite::state2pixmap(new_state));
+    this -> setIcon(slotWhite::state2pixmap(state));
 }
